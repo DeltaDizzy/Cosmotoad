@@ -1,0 +1,11 @@
+C:\Users\DeltaDizzy\source\repos\DeltaBot\DeltaBot\bin\Debug\netcoreapp2.0\DeltaBot.deps.json
+C:\Users\DeltaDizzy\source\repos\DeltaBot\DeltaBot\bin\Debug\netcoreapp2.0\DeltaBot.runtimeconfig.json
+C:\Users\DeltaDizzy\source\repos\DeltaBot\DeltaBot\bin\Debug\netcoreapp2.0\DeltaBot.runtimeconfig.dev.json
+C:\Users\DeltaDizzy\source\repos\DeltaBot\DeltaBot\bin\Debug\netcoreapp2.0\DeltaBot.dll
+C:\Users\DeltaDizzy\source\repos\DeltaBot\DeltaBot\obj\Debug\netcoreapp2.0\DeltaBot.csprojResolveAssemblyReference.cache
+C:\Users\DeltaDizzy\source\repos\DeltaBot\DeltaBot\obj\Debug\netcoreapp2.0\DeltaBot.csproj.CoreCompileInputs.cache
+C:\Users\DeltaDizzy\source\repos\DeltaBot\DeltaBot\obj\Debug\netcoreapp2.0\DeltaBot.AssemblyInfoInputs.cache
+C:\Users\DeltaDizzy\source\repos\DeltaBot\DeltaBot\obj\Debug\netcoreapp2.0\DeltaBot.AssemblyInfo.cs
+C:\Users\DeltaDizzy\source\repos\DeltaBot\DeltaBot\bin\Debug\netcoreapp2.0\DeltaBot.pdb
+C:\Users\DeltaDizzy\source\repos\DeltaBot\DeltaBot\obj\Debug\netcoreapp2.0\DeltaBot.dll
+C:\Users\DeltaDizzy\source\repos\DeltaBot\DeltaBot\obj\Debug\netcoreapp2.0\DeltaBot.pdb
