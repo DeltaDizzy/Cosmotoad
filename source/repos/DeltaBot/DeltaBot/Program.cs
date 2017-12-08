@@ -19,7 +19,7 @@ namespace DeltaBot
             
 
             _client = new DiscordSocketClient();
-            await _client.LoginAsync(TokenType.Bot, "Mzg4MDgwMDgzODA3NjMzNDA4.DQn2KA.88B53zhX3nb-LJDnhUlWS2f6FrE");
+            await _client.LoginAsync(TokenType.Bot, "this is private. Dont be snitchin");
 
             await _client.StartAsync();
 
