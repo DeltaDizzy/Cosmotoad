@@ -12,7 +12,6 @@ namespace DeltaBot.Modules
     public class ModAction : ModuleBase<SocketCommandContext>
     {
         string _reason;
-        int banTime;
 
         [Command("Warn")]
         [RequireUserPermission(GuildPermission.ManageGuild)]
@@ -37,12 +36,12 @@ namespace DeltaBot.Modules
         [Command("Ban")]
         [RequireUserPermission(GuildPermission.BanMembers)]
         [RequireBotPermission(GuildPermission.BanMembers)]
-        public async Task Ban(IGuildUser user, [Remainder]string reason)
+        public async Task Ban(IGuildUser user, [Remainder]string reason, int banMins = 1)
         {
-            await user.
-            //_reason = String.Format($"You have been kicked for the following reason: '{reason}'");
+            await user.Guild.AddBanAsync(user, banMins);
+            //_reason = String.Format($"You have been banned for the following reason: '{reason}'");
             //await UserExtensions.SendMessageAsync(user, _reason);
-            await Context.Channel.SendMessageAsync($":white_check_mark: **{user}** has been Kicked!");
+            await Context.Channel.SendMessageAsync($":white_check_mark: **{user}** has been Banned!");
         }
     }
 }
