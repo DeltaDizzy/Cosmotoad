@@ -23,3 +23,29 @@ C:\Users\ejbraswell\Documents\Visual Studio 2017\Projects\DeltaBot\DeltaBot\bin\
 C:\Users\ejbraswell\Documents\Visual Studio 2017\Projects\DeltaBot\DeltaBot\obj\Debug\DeltaBot.csprojResolveAssemblyReference.cache
 C:\Users\ejbraswell\Documents\Visual Studio 2017\Projects\DeltaBot\DeltaBot\obj\Debug\DeltaBot.exe
 C:\Users\ejbraswell\Documents\Visual Studio 2017\Projects\DeltaBot\DeltaBot\obj\Debug\DeltaBot.pdb
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\bin\Debug\DeltaBot.exe.config
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\bin\Debug\DeltaBot.exe
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\bin\Debug\DeltaBot.pdb
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\bin\Debug\Discord.Net.Commands.dll
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\bin\Debug\Discord.Net.Core.dll
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\bin\Debug\Discord.Net.Rest.dll
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\bin\Debug\Discord.Net.WebSocket.dll
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\bin\Debug\System.Collections.Immutable.dll
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\bin\Debug\System.Interactive.Async.dll
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\bin\Debug\Discord.Net.Commands.xml
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\bin\Debug\Discord.Net.Core.xml
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\bin\Debug\Discord.Net.Rest.xml
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\bin\Debug\Discord.Net.WebSocket.xml
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\bin\Debug\System.Collections.Immutable.xml
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\bin\Debug\System.Interactive.Async.xml
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\obj\Debug\DeltaBot.csprojResolveAssemblyReference.cache
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\obj\Debug\DeltaBot.csproj.CoreCompileInputs.cache
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\obj\Debug\DeltaBot.exe
+C:\Users\DeltaDizzy\Documents\GitHub\DeltaBot\source\DeltaBot\DeltaBot\obj\Debug\DeltaBot.pdb
