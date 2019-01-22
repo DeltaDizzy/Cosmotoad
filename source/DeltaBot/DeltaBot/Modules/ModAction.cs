@@ -15,6 +15,7 @@ namespace DeltaBot.Modules
 
         [Command("Warn")]
         [RequireUserPermission(GuildPermission.ManageGuild)]
+        [RequireBotPermission(GuildPermission.ManageGuild)]
         public async Task Warn(IGuildUser user, string reason)
         {
             _reason = String.Format($"You have been warned for the following reason: {reason}");

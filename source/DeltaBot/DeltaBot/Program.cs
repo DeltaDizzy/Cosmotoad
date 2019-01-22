@@ -5,10 +5,10 @@ using Discord.WebSocket;
 
 namespace DeltaBot
 {
-    class Program
+    class DeltaBot
     {
         public static void Main(string[] args)
-            => new Program().MainAsync().GetAwaiter().GetResult();
+            => new DeltaBot().MainAsync().GetAwaiter().GetResult();
         private CommandHandler _handler; 
         public async Task MainAsync()
         {
