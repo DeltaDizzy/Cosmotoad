@@ -37,7 +37,7 @@ namespace DeltaBot.Modules
         [Command("Ban")]
         [RequireUserPermission(GuildPermission.BanMembers)]
         [RequireBotPermission(GuildPermission.BanMembers)]
-        public async Task Ban(IGuildUser user, [Remainder]string reason, int banMins = 1)
+        public async Task Ban(IGuildUser user, int banMins, [Remainder]string reason)
         {
             await user.Guild.AddBanAsync(user, banMins);
             //_reason = String.Format($"You have been banned for the following reason: '{reason}'");

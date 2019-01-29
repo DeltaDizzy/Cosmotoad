@@ -21,7 +21,7 @@ namespace DeltaBot.Modules
             embed.AddField("&test", "Makes sure the bot is working", false);
             embed.AddField("&warn <user> <reason>", "Warns a user if they have broken a rule.", false);
             embed.AddField("&kick <user> <reason>", "Kicks a user.", false);
-            await Context.Channel.SendMessageAsync("", false, embed);
+            await Context.Channel.SendMessageAsync("", false, embed.Build());
         }
     }
 }
