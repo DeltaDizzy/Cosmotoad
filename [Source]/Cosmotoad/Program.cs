@@ -15,6 +15,14 @@ namespace DeltaBot
         private CommandService _service = new CommandService();
         private readonly IServiceCollection _map = new ServiceCollection();
         string tokenpath = AppDomain.CurrentDomain.BaseDirectory + "tokenbeta.tok";
+        private char _prefix = '&';
+        public static string Prefix
+        {
+            get
+            {
+                return _prefix.ToString();
+            }
+        }
         public static void Main(string[] args)
         {
             new Program().MainAsync().GetAwaiter().GetResult();
@@ -65,7 +73,7 @@ namespace DeltaBot
 
             var context = new SocketCommandContext(_client, msg);
             int argPos = 0;
-            if (msg.HasCharPrefix('&', ref argPos))
+            if (msg.HasCharPrefix(Prefix, ref argPos))
             {
                 var result = await _service.ExecuteAsync(context, argPos, _services);
 
