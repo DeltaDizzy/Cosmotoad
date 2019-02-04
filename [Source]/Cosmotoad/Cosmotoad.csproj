@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B3392DB3-7792-47C8-BEE9-0DCF1EDD9106}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DeltaBot</RootNamespace>
-    <AssemblyName>DeltaBot</AssemblyName>
+    <RootNamespace>Cosmotoad</RootNamespace>
+    <AssemblyName>Cosmotoad</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

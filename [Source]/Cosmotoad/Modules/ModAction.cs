@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DeltaBot.Modules
+namespace Cosmotoad.Modules
 {
     public class ModAction : ModuleBase<SocketCommandContext>
     {
