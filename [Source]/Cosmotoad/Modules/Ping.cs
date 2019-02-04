@@ -12,8 +12,11 @@ namespace Cosmotoad.Modules
         [Command("ping")]
         public async Task Ping()
         {
-            int pingtime = Context.Client.Latency;
-            string ping = pingtime.ToString();
+            string ping = Context.Client.Latency.ToString();
+            var eb = new EmbedBuilder();
+            eb.WithTitle("Latency");
+            eb.WithColor(Color.Orange);
+            ed.AddField("", $"My ping is {ping} ms. :ping_pong:")
             await Context.Channel.SendMessageAsync("My ping is " + ping + " ms. :ping_pong:");
         }
     }
