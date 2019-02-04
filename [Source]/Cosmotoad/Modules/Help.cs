@@ -16,11 +16,12 @@ namespace Cosmotoad.Modules
             var embed = new EmbedBuilder();
             embed.WithColor(Color.Blue);
             embed.WithTitle("**Commands:**");
-            embed.AddField("&help", "Shows a list of commands", false);
-            embed.AddField("&ping", "Displays the Bot's latency", false);
-            embed.AddField("&test", "Makes sure the bot is working", false);
-            embed.AddField("&warn <user> <reason>", "Warns a user if they have broken a rule.", false);
-            embed.AddField("&kick <user> <reason>", "Kicks a user.", false);
+            embed.AddField($"{Program.Prefix}help", "Shows a list of commands", false);
+            embed.AddField($"{Program.Prefix}ping", "Displays the Bot's latency", false);
+            embed.AddField($"{Program.Prefix}test", "Makes sure the bot is working", false);
+            embed.AddField($"{Program.Prefix}warn <user> <reason>", "Warns a user if they have broken a rule.", false);
+            embed.AddField($"{Program.Prefix}kick <user> <reason>", "Kicks a user.", false);
+            embed.AddField($"{Program.Prefix}projects" "Displays projects by KSP-DDR", false);
             await Context.Channel.SendMessageAsync("", false, embed.Build());
         }
     }
