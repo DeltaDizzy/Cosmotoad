@@ -16,8 +16,9 @@ namespace Cosmotoad.Modules
             var eb = new EmbedBuilder();
             eb.WithTitle("Latency");
             eb.WithColor(Color.Orange);
-            ed.AddField("", $"My ping is {ping} ms. :ping_pong:")
-            await Context.Channel.SendMessageAsync("My ping is " + ping + " ms. :ping_pong:");
+            ed.AddField("", $"My ping is {ping} ms. :ping_pong:");
+            
+            await Context.Channel.SendMessageAsync(eb.Build());
         }
     }
 }
