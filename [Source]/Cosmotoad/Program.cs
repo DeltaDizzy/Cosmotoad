@@ -7,11 +7,11 @@ using Discord.Commands;
 using Discord.WebSocket;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace DeltaBot
+namespace Cosmotoad
 {
     class Program
     {
-        private readonly DiscordSocketClient _client;
+        private readonly DiscordShardedClient _client;
         private CommandService _service = new CommandService();
         private readonly IServiceCollection _map = new ServiceCollection();
         string tokenpath = AppDomain.CurrentDomain.BaseDirectory + "tokenbeta.tok";
@@ -23,7 +23,7 @@ namespace DeltaBot
 
         private Program()
         {
-            _client = new DiscordSocketClient(new DiscordSocketConfig
+            _client = new DiscordShardedClient(new DiscordSocketConfig
             {
                 LogLevel = LogSeverity.Verbose,
                 MessageCacheSize = 50
@@ -63,7 +63,7 @@ namespace DeltaBot
                 return;
             }
 
-            var context = new SocketCommandContext(_client, msg);
+            var context = new ShardedCommandContext(_client, msg);
             int argPos = 0;
             if (msg.HasCharPrefix('&', ref argPos))
             {
