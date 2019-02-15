@@ -12,7 +12,6 @@ namespace Cosmotoad.Modules
     public class ModAction : ModuleBase<SocketCommandContext>
     {
         string _reason;
-
         [Command("Warn")]
         [RequireUserPermission(GuildPermission.ManageGuild)]
         [RequireBotPermission(GuildPermission.ManageGuild)]
@@ -29,8 +28,8 @@ namespace Cosmotoad.Modules
         public async Task Kick(IGuildUser user, [Remainder]string reason)
         {
             await user.KickAsync(reason);
-            //_reason = String.Format($"You have been kicked for the following reason: '{reason}'");
-            //await UserExtensions.SendMessageAsync(user, _reason);
+            _reason = String.Format($"You have been kicked for the following reason: '{reason}'");
+            var c = discord.CreatePrivateChannel(user.id);
             await Context.Channel.SendMessageAsync($":white_check_mark: **{user}** has been Kicked!");
         }
 
