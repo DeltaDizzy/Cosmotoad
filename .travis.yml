@@ -1,12 +1,7 @@
 language: csharp
 solution: [Source]/Cosmotoad/Cosmotoad.sln
+mono: latest
 
-matrix:
-  include:
-    - dotnet: 2.2.2
-      mono: none
-      
-    - mono: latest
 
 script:
-  - make Cosmotoad
+  - make Release
