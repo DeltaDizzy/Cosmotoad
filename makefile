@@ -1,11 +1,9 @@
-MAIN_FILE = [Source]/Cosmotoad/bin/Debug/Cosmotoad
-SOURCE_DIR = [Source]/Cosmotoad/
-CSHARP_SOURCE_FILES = $(wildcard $(SOURCE_DIR)*.cs */*.cs)
-# CSHARP_SWITCHES
-CSHARP_PROJECT = $(SOURCE_DIR)/Cosmotoad.csproj
-CSHARP_COMPILER = MSBuild.exe
-EXCECUTABLE = $(MAIN_FILE).exe
+EXECUTABLE = [Source]/Cosmotoad/bin/Debug/Cosmotoad.exe
+SOURCE_DIR = [Source]/Cosmotoad
+SOURCE_FILES = $(SOURCE_DIR/*/*.cs)
+CSC = MSBuild.exe
+FRAMEWORK = v4.6.2
 
-$(EXCECUTABLE): $(CSHARP_SOURCE_FILES)
-  @ $(CSHARP_COMPILER) $(CSHARP_PROJECT)
-  @ echo Build Started...
+Release: $(SOURCE_FILES)
+  $(CSC) $(SOURCE_DIR/Cosmotoad.sln) /t:Build /p:Configuration=Release /p:TargetFramework=$(FRAMEWORK)
+  @echo Build Started...
